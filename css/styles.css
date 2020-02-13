@@ -1,0 +1,76 @@
+body {
+  background-image: url(/imgs/vintage-wallpaper.png);
+}
+
+.navtitle {
+  background-color: #4aaaa5;
+  padding: 10px;
+}
+
+/* About Me */
+.aboutme {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  border: 1px solid black;
+  min-height: 400px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+
+.aboutme h2 {
+  color: #4aaaa5;
+  padding: 20px;
+}
+
+.aboutme img {
+  display: block;
+  height: auto;
+  width: 300px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 30px;
+  padding: 10px;
+}
+
+/* Portfolio */
+.portfolio {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  border: 1px solid black;
+  min-height: 400px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+
+.portfolio h2 {
+  color: #4aaaa5;
+  padding: 20px;
+}
+
+/* Contact */
+.contact {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  border: 1px solid black;
+  min-height: 400px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+
+.contact h2 {
+  color: #4aaaa5;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  height: 2rem;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+}
