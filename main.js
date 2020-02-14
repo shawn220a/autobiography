@@ -7,11 +7,11 @@ $(document).ready(() => {
 
   setInterval(() => {
     $('body').css('background-image', 'url(' + imgUrl[index] +')');
-    if (index < imgUrl.length){
+    if (index < ((imgUrl.length) - 1)){
       index++;
     } else {
       index = 0;
     }
-  },3000)
+  },5000)
   
 });
