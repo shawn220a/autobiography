@@ -1,7 +1,7 @@
 $(document).ready(() => {
   const imgUrl = [
-    "../imgs/backgroundAviation/crj200.jpg",
-    "../imgs/backgroundAviation/night_cockpit.jpg"
+    "imgs/backgroundAviation/crj200.jpg",
+    "imgs/backgroundAviation/night_cockpit.jpg"
   ];
   let index = 0;
 
@@ -12,6 +12,6 @@ $(document).ready(() => {
     } else {
       index = 0;
     }
-  },5000)
+  },3000)
   
 });
